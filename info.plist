@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.georgebuckingham.hacker-news-feed</string>
+	<key>connections</key>
+	<dict>
+		<key>832D2043-7D55-44F9-BB13-18AFFEE47874</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>07CF63EC-CD58-489E-924D-15479FFA6391</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>George Buckingham</string>
+	<key>description</key>
+	<string>View the latest submissions to Hacker News</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Hacker News Feed</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>07CF63EC-CD58-489E-924D-15479FFA6391</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>63</integer>
+				<key>keyword</key>
+				<string>hn</string>
+				<key>runningsubtext</key>
+				<string>Please Wait - Loading Submissions</string>
+				<key>script</key>
+				<string>require_once('feed.php');</string>
+				<key>subtext</key>
+				<string>View the latest Hacker News submissions</string>
+				<key>title</key>
+				<string>Hacker News</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>832D2043-7D55-44F9-BB13-18AFFEE47874</string>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Developed by George Buckingham (@gbuckingham89 | http://georgebuckingham.com | george@georgebuckingham.com).
+
+To get the submissions, we use the unofficial Hacker News API developed by Ronnie Roller (@ronnieroller | http://ronnieroller.com/) for ihackernews.com. Details at: http://api.ihackernews.com/.</string>
+	<key>uidata</key>
+	<dict>
+		<key>07CF63EC-CD58-489E-924D-15479FFA6391</key>
+		<dict>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
+		<key>832D2043-7D55-44F9-BB13-18AFFEE47874</key>
+		<dict>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://georgebuckingham.com</string>
+</dict>
+</plist>
