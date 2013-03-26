@@ -1,4 +1,4 @@
-# Hacker News Feed Workflow for Alfred
+# Hacker News Feed - a workflow for Alfred
 
 This simple workflow pulls the submissions from the current Hacker News homepage and displays them in Alfred (via keyword "hn") for quick and easy viewing.
 
