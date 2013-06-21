@@ -8,4 +8,4 @@ The submissions feed comes from the unofficial Hacker News API developed by [Ron
 
 More details: [http://georgebuckingham.com/blog/hacker-news-alfred-workflow](http://georgebuckingham.com/blog/hacker-news-alfred-workflow).
 
-**Get it:** you can [download the workflow here](http://cl.ly/2K3a1p0Z0y3a) or fork this repo and use / modify as you wish.
+**Get it:** you can [download the workflow here](http://georgebuckingham.com/downloads/Hacker-News-Feed.alfredworkflow) or fork this repo and use / modify as you wish.
